@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import ProjectCards from './project'
-import portfolio from ''
+import portfolio from '../data/portfolio.json'
 
 
 function Wrapper(props) {
