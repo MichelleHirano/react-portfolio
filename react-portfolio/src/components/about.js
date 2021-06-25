@@ -10,7 +10,7 @@ const About = () => {
 
                             <div className='card-body'>
                                 <div className="row abstract-back ">
-                                    <img className='avatar' src={Avatar} />
+                                    <img className='avatar' src= '' />
                                 </div>
                             </div>
 

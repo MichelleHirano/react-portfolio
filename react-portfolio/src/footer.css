@@ -1,0 +1,81 @@
+:root {
+    /* from coolers: https://colorhunt.co/palette/325288f4eee8f5cebe114e60 */
+    --Navy:#325288;
+    --Peach:#F5CEBE;
+    --Beige:#F4EEE8;
+    --Forest:#114E60;
+}
+
+.img-link {
+    text-align: center;
+}
+
+.footer-info {
+    font-size: 24px;
+    color: var(--Navy);
+    font-weight: bold;
+    background-color: var(--Beige);
+    text-align: center;
+}
+
+h1 {
+    margin: auto 30px;
+    padding: 10px;
+    color: var(--Navy);
+    font-weight: bold;
+}
+
+#topics {
+    font-size: small;
+    font-style: italic;
+    color: var(--Nevy);
+}
+
+#card-title {
+    margin-top: 10px;
+    color: var(--onyx);
+    text-shadow: 1px 1px 6px var(--Beige);
+}
+
+#footer {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.icon {
+    padding: 10px;
+}
+
+#contact-section {
+    justify-content: center;
+    margin: 20px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.error-text {
+    color: var(--Peach);
+}
+
+#footer {
+    background-color: var(--Beige);
+}
+
+#footer .icon {
+    background-color: var(--Beige);
+    margin-top: 20px;
+}
+
+#footer p {
+    background-color: var(--Beige);
+    margin-top: 8px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: var(--Navy);
+}
+
+#react-icon {
+    background-color: var(--Beige);
+}
