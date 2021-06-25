@@ -1,12 +1,30 @@
 import React from 'react';
 import '../App.css';
+import ProjectCards from './project'
+import portfolio from ''
 
-const Portfolio = () => {
+
+function Wrapper(props) {
+    return <div className="wrapper">{props.children}</div>;
+}
+
+function Portfolio () {  
+
     return (
-        <div>
+        <section>
+          <div className="project">
+            <h1 className="title">My Portfolio</h1>
+            <hr></hr>
+          </div>
 
-        </div>
-          );
-        };
-        
-        export default Portfolio;
+          <Wrapper id="card-data">
+            {portfolio.map((project) => (
+              <ProjectCards key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} topics={project.topics}/>
+            ))}
+          </Wrapper>
+        </section>
+    
+    );
+  }
+
+export default Portfolio;
