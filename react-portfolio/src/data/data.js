@@ -1,8 +1,12 @@
+import Personal from '../assets/images/portfolio.png';
+import Shoes from '../assets/images/posts-copy.png';
+
+export default
 [
     {
     "id": 1,
     "name": "portfolio",
-    "image": "https://github.com/MichelleHirano/react-portfolio/blob/2f58a1c213e6583f80cf84d742e751ae54416ae2/react-portfolio/src/assets/images/portfolio.png",
+    "image": Personal,
     "github": "https://github.com/MichelleHirano/PersonalPortfolio.git",
     "deploy": "https://michellehirano.github.io/PersonalPortfolio/",
     "topics": "css, html"
@@ -10,7 +14,7 @@
     {
     "id": 2,
     "name": "Shoe Blog",
-    "image": "https://github.com/MichelleHirano/shoes-projecttwo2021/blob/2d1be3814c206d7be863dc83b0601b01b1f427f5/examples/posts.png",
+    "image": Shoes,
     "github": "https://github.com/MichelleHirano/shoes-projecttwo2021.git",
     "deploy": "https://shoe-views-2.herokuapp.com/",
     "topics": "bcrypt, express-js, node-js, dotenv, handlebars-js"

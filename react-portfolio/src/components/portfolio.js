@@ -1,30 +1,43 @@
+
 import React from 'react';
-import '../App.css';
-import ProjectCards from './project'
-import portfolio from '../data/portfolio.json'
+import portfolio from '../data/data';
+import ProjectCards from '../components/project';
+import '../portfolio.css';
 
 
-function Wrapper(props) {
-    return <div className="wrapper">{props.children}</div>;
-}
-
-function Portfolio () {  
-
+const Portfolio = () => {
     return (
-        <section>
-          <div className="project">
-            <h1 className="title">My Portfolio</h1>
-            <hr></hr>
-          </div>
+        <React.Fragment>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col'>
+                        <div className='card'>
+                            <div className='card-body'>
+                                <div className="header">
+                                    <h3>Portfolio</h3>
+                                </div>
+                                <div className="modal-footer" />
 
-          <Wrapper id="card-data">
-            {portfolio.map((project) => (
-              <ProjectCards key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} topics={project.topics}/>
-            ))}
-          </Wrapper>
-        </section>
-    
+                                <div className="grid-container vertical-line">
+                                    {portfolio.map((project) => (
+                                        <ProjectCards
+                                            id={project.id}
+                                            key={project.id}
+                                            image={project.image}
+                                            name={project.name}
+                                            github={project.github}
+                                            deploy={project.deploy}
+                                        />
+                                    ))}
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </React.Fragment>
     );
-  }
+};
 
 export default Portfolio;
