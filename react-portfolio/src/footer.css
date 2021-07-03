@@ -12,7 +12,7 @@
 
 .footer-info {
     font-size: 24px;
-    color: var(--Navy);
+    color: var(--Forest);
     font-weight: bold;
     background-color: var(--Beige);
     text-align: center;
@@ -21,14 +21,14 @@
 h1 {
     margin: auto 30px;
     padding: 10px;
-    color: var(--Navy);
+    color: var(--Forest);
     font-weight: bold;
 }
 
 #topics {
     font-size: small;
     font-style: italic;
-    color: var(--Nevy);
+    color: var(--Forest);
 }
 
 #card-title {
@@ -73,7 +73,7 @@ h1 {
 
 #footer a {
     text-decoration: none;
-    color: var(--Navy);
+    color: var(--Forest);
 }
 
 #react-icon {

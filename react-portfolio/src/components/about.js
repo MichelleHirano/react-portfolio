@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import Me from '../assets/images/mhiranophoto-copy.jpg'
 
 const About = () => {
     return (
@@ -10,7 +11,7 @@ const About = () => {
 
                             <div className='card-body'>
                                 <div className="row abstract-back ">
-                                    <img className='avatar' src= '' />
+                                    <img className='avatar' src= {Me} />
                                 </div>
                             </div>
 

@@ -4,6 +4,7 @@ import { HashRouter as Router} from 'react-router-dom';
 import './index.css';
 import App from './App';
 import ParticlesBg from "particles-bg";
+import './App.css';
 
 
 ReactDOM.render(

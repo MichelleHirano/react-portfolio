@@ -10,6 +10,7 @@ import NavBar from '../components/navbar';
 import Contact from '../components/contact';
 import Portfolio from '../components/portfolio';
 
+
 function Header() {
     return (
         <Router>
